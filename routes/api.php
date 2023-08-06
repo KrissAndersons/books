@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\BookController;
+use App\Http\Controllers\API\PurchaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+Route::get('/topten', [BookController::class, 'topten']);
+
+Route::get('/search/{search}', [BookController::class, 'search']);
+
+Route::get('/purchase/{id}', [PurchaseController::class, 'purchase']);
+

@@ -1,0 +1,42 @@
+.inline_block {
+    display: inline-block;   
+}
+
+.content {
+    width: 70%;
+    margin: auto; 
+}
+
+.row {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+}
+
+.title {
+    width: 39%;
+}
+
+.authors {
+    width: 38%;
+}
+
+.pop_total {
+    width: 7%;
+}
+
+.pop_month {
+    width: 7%;
+}
+
+.button {
+    width: 7%;
+}
+
+.search_box {
+    width: 70%;
+    margin: auto;
+}
+
