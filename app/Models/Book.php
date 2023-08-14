@@ -12,8 +12,6 @@ class Book extends Model
 {
     use HasFactory;
 
-    protected $with = ['authors'];
-
     public function authors(): BelongsToMany
     {
         return $this->belongsToMany(Author::class);

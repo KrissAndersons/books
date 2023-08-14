@@ -1,21 +1,22 @@
 hi, this is my bookshelf app
 
+a list of books and their authors, there may be several or no authors
 
-a list of all books their authors, there may be several or no authors
+search by author or book
 
-search: by author or book
+sort by the popularity of the book 
 
-sort by the popularity of the book within the month
+popularity is determined by the number of purchases per month
 
 possibility to indicate that the book was bought 
 
-the more often you click buy, the more popular
+the more often you click buy, the more popular book becomes
 
-endpoint to get top ten
+endpoint to get top ten 
 
 
 
-php and laravel vesions:
+php and laravel versions:
 
 php -v
 
